@@ -1,4 +1,4 @@
-#Code Explanation
+Code Explanation
 
 mobile_factory.py:
 
@@ -44,7 +44,7 @@ Request Payload: Constructs a JSON payload with a list of component codes.
 Response Handling: Prints the response received from the server, including order details.
 
 
-#How to Run:
+How to Run:
 
 Requirements:
 
