@@ -65,3 +65,13 @@ Run python send_request.py to send a POST request and create an order.
 
 View the response received in the terminal window.
 
+OR 
+
+For powershell:
+
+Invoke-WebRequest -Method POST -Uri "http://127.0.0.1:5000/orders" -ContentType "application/json" -Body '{"components":["I","A","D","F","K"]}'
+
+For Unix based systems(Linux/MacOS)
+
+curl -X POST -H "Content-Type: application/json" -d '{"components":["I","A","D","F","K"]}' http://127.0.0.1:5000/orders
+
